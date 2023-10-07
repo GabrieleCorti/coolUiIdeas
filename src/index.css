@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  box-shadow: none;
+}
+
+:root {
+  --hold-button-animation-duration: 1200ms;
+}
