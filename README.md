@@ -1,27 +1,11 @@
-# React + TypeScript + Vite
+# Cool UI ideas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This album consists of react UI components with various features. These components don't share any style. These components have some infesting UX interaction and are based on ideas that come to my mind randomly, they are not meant to be really used but just built for fun.
 
-Currently, two official plugins are available:
+I choose to use react because it is the framework I am better familiar with, so for me it's faster to sketch out ideas quickly. To achieve my desired style, I chose CSS that is plain and simple.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+| Component  | description                                                                          |
+| ---------- | ------------------------------------------------------------------------------------ |
+| HoldButton | A button to hold for some time before it's action fires. It has a loader as a border |
